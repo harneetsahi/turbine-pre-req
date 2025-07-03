@@ -8,7 +8,7 @@
     "airdrop": "ts-node ./airdrop.ts",
     "transfer": "ts-node ./transfer.ts",
     "enroll": "ts-node ./enroll.ts",
-    "test": "npx tsc && node dist/tests/index.js"
+    "test": "ts-node ./tests/index.ts"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.31.1",
